@@ -18,8 +18,6 @@ RUN npm install bower -g && \
 #   Configuration   #
 # ----------------- #
 
-EXPOSE 3000
-
 RUN mkdir /nodeApp
 WORKDIR /nodeApp
 
