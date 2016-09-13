@@ -6,7 +6,7 @@ MAINTAINER Ali Khalili "hyperir@gmail.com"
 # ---------------- #
 
 RUN apt-get update && \
- apt-get install -y git && \
+ apt-get install -y git gettext && \
  apt-get autoremove -y && \
  apt-get -y clean && \
  rm -rf /var/lib/apt/lists/*
@@ -20,4 +20,3 @@ RUN npm install bower -g && \
 
 RUN mkdir /nodeApp
 WORKDIR /nodeApp
-
