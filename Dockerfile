@@ -11,8 +11,7 @@ RUN apt-get update && \
  apt-get -y clean && \
  rm -rf /var/lib/apt/lists/*
 
-RUN npm install bower -g && \
- npm install webpack -g
+RUN npm install webpack -g
 
 # ----------------- #
 #   Configuration   #
