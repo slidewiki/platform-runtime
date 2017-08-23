@@ -1,4 +1,4 @@
-FROM node:6.2-slim
+FROM node:6-slim
 MAINTAINER Ali Khalili "hyperir@gmail.com"
 
 # ---------------- #
